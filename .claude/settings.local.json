@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run dev:*)",
+      "Bash(timeout:*)",
+      "Bash(dir:*)",
+      "Bash(ls:*)",
+      "Bash(npm run build:*)",
+      "Bash(ffmpeg:*)",
+      "Bash(ffprobe:*)",
+      "Bash(Move-Item \"src/assets/media/PhoneConnectivity-Hero.optimized.mp4\" \"public/PhoneConnectivity-Hero.mp4\" -Force)"
+    ]
+  }
+}
