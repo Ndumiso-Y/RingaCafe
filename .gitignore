@@ -3,3 +3,11 @@ dist
 .DS_Store
 *.log
 .env
+
+# Exclude unoptimized video files
+src/assets/media/*.mp4
+Media/
+*.zip
+
+# Only track optimized videos in public/
+!public/*.mp4
